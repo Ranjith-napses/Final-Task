@@ -8,6 +8,7 @@ const BlogCard = () => {
       <Text type="meta">12 Feb 2019 | Express, Handlebars</Text>
       <Text>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint...</Text>
     </div>
+    
   );
 };
 
