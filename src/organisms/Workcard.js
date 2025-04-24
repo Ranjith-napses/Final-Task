@@ -4,7 +4,7 @@
  import { Link } from "react-router-dom";
 
 
- const Workcard=({title,year,type,img, description}) =>{
+ const WorkCard=({title,year,type,img, description}) =>{
     return (
         <div className="flex flex-col md:flex-row gap-6 items-start border-b pb-6">
              <Image
@@ -27,4 +27,4 @@
         </div>
     )
  }
- export default Workcard;
+ export default WorkCard;

@@ -1,9 +1,5 @@
 import React from "react";
-import Workcard from "../organisms/Workcard";
- 
-
-
-
+import WorkCard from '../organisms/WorkCard';
 const Workitem=[
     {
         title: 'Designing Dashboards',
@@ -39,7 +35,7 @@ const Worklist = () =>{
     return(
         <div className="space-y-8">
             {Workitem.map((item,index)=>(
-                <Workcard key ={index}{ ...item}/>
+                <WorkCard key ={index}{ ...item}/>
             ))}
         </div>
     );
